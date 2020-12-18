@@ -1,51 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+  <title>Freelance Fullstack Web Developer</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
-  <title>Rémi's profile</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 </head>
 <body>
-  <div class="container">
 
-    <div class="card">
-      <h1>Hey, I'm Rémi Schwartz</h1>
-      <img src="images/20200413_135747.jpg" alt="Oim" class="img-circle avatar-size">
-      <h2>Developper</h2>
-      <p>I love to code 💻, to travel 🗺, and to play/listen to music 🤘 .</p>
-      <a href="https://play.google.com/store/apps/developer?id=R%C3%A9mi+Schwartz" class="btn" target="_blank">Take a look at my apps!</a>
-    </div>
-
-    <div class="card">
-      <h2>Code!</h2>
-      <p>Ruby (on Rails), SQL, HTML, CSS, JS, none of those have any secret for me thanks to Le Wagon! 🚃
-        <br>
-      I also do a bit of android apps 📱 code (Java) during my spare time.</p>
-    </div>
-
-    <div class="card">
-      <h2>Music</h2>
-      <p>I mainly listen to punk rock, grunge, and rock in general , but I am not (completely) allergic to other genres.
-      <br>I'm learning to play the drums🥁 and guitar🎸.</p>
-    </div>
-
-    <div class="card">
-      <h2>Follow me</h2>
-      <ul class="list-inline">
-        <li>
-          <a href="https://www.linkedin.com/in/rémi-schwartz/"><i class="fab fa-linkedin"></i></a>
-        </li>
-        <li>
-          <a href="https://github.com/RemJpn"><i class="fab fa-github-square"></i></a>
-        </li>
-      </ul>
+  <div id="profile">
+    <div class="container container-section">
+      <div class="banner-horizontal">
+        <img src="images/photo_remi.jpeg" class = avatar alt="">
+        <div class="catchphrase">
+          <h2>Hi, I am Rémi Schwartz</h2>
+          <h1>Fullstack Web developer</h1>
+          <h2>I will build your web app and bring your web design to life! </h2>
+        </div>
+      </div>
+      <a class="btn">Get a quote</a>
     </div>
   </div>
 
+  <div class="section">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="cards-skill">
+        <img src="images/rails_red.png" class="card-skill" alt="Rails logo">
+        <img src="images/ruby.png" class="card-skill" alt="Ruby logo">
+        <img src="images/postgre2.png" class="card-skill" alt="PostgreSQL logo">
+        <img src="images/html.png" class="card-skill" alt="HTML5 logo">
+        <img src="images/css.png" class="card-skill" alt="CSS logo">
+        <img src="images/js.png" class="card-skill" alt="JavaScript ES6 logo">
+        <img src="images/heroku.png" class="card-skill" alt="Heroku logo">
+
+
+      </div>
+
+      <p class="text-center">
+        But I love a challenge, and I love to learn new things!
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="cards-project">
+        <div class="card-project">
+          <a href="https://www.mymusicband.rocks/" target="blank" class="img-project bg-musicband">
+            Visit &nbsp; <i class="fas fa-external-link-square-alt"></i>
+          </a>
+          <p class="text-center">MyMusicBand.rocks <span>(Le Wagon project)</span></p>
+        </div>
+        <div class="card-project ">
+          <a href="https://adoptavillain.herokuapp.com/" target="blank" class="img-project bg-adopt">
+            Visit &nbsp; <i class="fas fa-external-link-square-alt"></i>
+          </a>
+          <p class="text-center">Adopt a Villain <span>(Le Wagon project)</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <h2>My next project?</h2>
+
+        <p>blablabla</p>
+        <a class="btn">Contact me</a>
+    </div>
+  </div>
 
 </body>
 </html>
