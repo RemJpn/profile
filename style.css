@@ -48,11 +48,11 @@ p {
 .banner-horizontal {
   display: flex;
   align-items: center;
-  margin-bottom:20px;
+  z-index: 1;
 }
 
 .catchphrase {
-  margin: 0 0 0 15px;
+  margin: 0 0 0 3rem;
 }
 
 .avatar {
@@ -96,16 +96,18 @@ p {
 .card-project{
   display: flex;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   width: 100%;
 }
 .card-project p {
-  margin: 0 1rem;
+  margin: 0 4rem;
   width:100%;
+  margin-inline-start: 10%;
 }
 
 .cards-project .card-project:nth-child(even) {
   flex-direction: row-reverse;
+  text-align: right;
 }
 
 .img-project{
@@ -164,6 +166,7 @@ p {
   margin-top: 3rem;
   text-decoration: none;
   cursor: pointer;
+  z-index: 1;
 }
 
 .btn:hover {

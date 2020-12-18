@@ -8,7 +8,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 </head>
 <body>
@@ -51,19 +50,19 @@
 
   <div class="section">
     <div class="container">
-      <h2>My Projects</h2>
+      <h2>Awesome Projects I worked on</h2>
       <div class="cards-project">
-        <div class="card-project">
+        <div class="card-project" data-aos="fade-right">
           <a href="https://www.mymusicband.rocks/" target="blank" class="img-project bg-musicband">
             Visit &nbsp; <i class="fas fa-external-link-square-alt"></i>
           </a>
-          <p class="text-center">MyMusicBand.rocks <span>(Le Wagon project)</span></p>
+          <p>MyMusicBand.rocks <span>(Le Wagon project)</span></p>
         </div>
-        <div class="card-project ">
+        <div class="card-project "  data-aos="fade-left">
           <a href="https://adoptavillain.herokuapp.com/" target="blank" class="img-project bg-adopt">
             Visit &nbsp; <i class="fas fa-external-link-square-alt"></i>
           </a>
-          <p class="text-center">Adopt a Villain <span>(Le Wagon project)</span></p>
+          <p>Adopt a Villain <span>(Le Wagon project)</span></p>
         </div>
       </div>
     </div>
@@ -77,12 +76,16 @@
     </div>
   </div>
 
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script>
   particlesJS.load('particles-js', 'assets/particlesConfig.json', function() {
     console.log('callback - particles.js config loaded');
   });
 </script>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
