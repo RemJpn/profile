@@ -9,11 +9,11 @@ body {
   font-family: 'Montserrat'
 }
 
-body > *:nth-child(odd) {
+body > *:nth-child(even) {
   background-color:#22333B;
   color:#F2F4F3;
 }
-body > *:nth-child(even) {
+body > *:nth-child(odd) {
   background-color:#F2F4F3;
   color: #0A0908;
 }
