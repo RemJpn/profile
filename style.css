@@ -67,7 +67,7 @@ p {
 .catchphrase li {
   margin: 5px 0 0 50px;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .avatar {
@@ -75,6 +75,7 @@ p {
   height:120px;
   border-radius: 50%;
   border: solid 5px white;
+  margin: 3rem 0;
 }
 
 .section {
@@ -84,6 +85,7 @@ p {
   font-size:2em;
   margin-bottom:4rem;
   font-weight: normal;
+  text-align: center;
 }
 
 .text-center {
@@ -117,7 +119,6 @@ p {
 .card-project p {
   margin: 0 4rem;
   width:100%;
-  margin-inline-start: 10%;
 }
 
 .cards-project .card-project:nth-child(even) {
@@ -211,8 +212,7 @@ p {
 }
 
 .footer {
-  padding: 1rem 0;
-  color:lightgray;
+  padding: 2rem 0;
   font-size: 2rem;
   text-decoration:none;
 }
@@ -232,5 +232,34 @@ p {
   filter: grayscale(1);
   transition: all 0.3s ease;
 }
+
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 80%;
+  }
+
+  .banner-horizontal {
+    flex-direction: column;
+  }
+
+  .catchphrase {
+    margin: 0;
+  }
+
+  .card-project, .cards-project .card-project:nth-child(even) {
+    flex-direction: column;
+    text-align:center;
+  }
+
+  .card-project p {
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+
+}
+
 
 
