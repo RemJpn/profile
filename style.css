@@ -75,7 +75,6 @@ p {
   height:120px;
   border-radius: 50%;
   border: solid 5px white;
-  margin: 3rem 0;
 }
 
 .section {
@@ -241,6 +240,10 @@ p {
 
   .banner-horizontal {
     flex-direction: column;
+  }
+
+  .avatar {
+    margin-bottom: 3rem;
   }
 
   .catchphrase {
