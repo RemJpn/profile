@@ -98,6 +98,7 @@ p {
   flex-wrap:wrap;
   justify-content:space-evenly;
   margin-bottom:2rem;
+  max-width: 860px;
 }
 
 .card-skill {
@@ -155,7 +156,12 @@ p {
   transform: scale(1.02);
 }
 
-
+.bg-livubi{
+  background-image: url(images/livubi.png);
+}
+.bg-livubi:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/livubi.png);
+}
 .bg-kty{
   background-image: url(images/galerie_kty.png);
 }
